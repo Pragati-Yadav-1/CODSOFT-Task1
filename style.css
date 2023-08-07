@@ -1,0 +1,110 @@
+body{
+    margin: 0 px;
+    padding: 0 px;
+    background: url('bg.jpg');
+    color: white;
+    font-family: 'Belanosima', sans-serif;
+    background-repeat: no-repeat;
+    height: 92vh;
+}
+
+/* give red border and white color in body to see the arrangements clearly...basically positioning and then keep doing the positioning */
+
+/* the thing we are trying to achieve by positioning can be achieved by flexbox or float as well but rn we are doing by what we learnt. */
+
+.left{
+   font-family: 'Belanosima', sans-serif;
+   display: inline-block;
+   /* border: 2px solid red; */
+   position: absolute;
+   top: 20px;
+   left: 34px;
+}
+.mid{
+   display: block;
+   /* border: 2px solid green; */
+   width: 43%;
+   margin: 20px auto;
+   font-family: 'Belanosima', sans-serif;
+   position: sticky;
+}
+.right{
+   display: inline-block;
+   /* border: 2px solid yellow; */
+   position: absolute;
+   top: 28.5px;
+   right: 34px;
+}
+.navbar{
+    display: inline-block;
+    position: sticky;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+    position: sticky;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 25px 12px;
+    position: sticky;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.left div{
+    text-align: center;
+    font-size: 13px;
+}
+.left img{
+    /* height: 60px; */
+    width: 23px;
+    filter: invert(100%);
+    align-self: center;
+    position: relative;
+    left: 24px;
+}
+.btn{
+    font-family: 'Belanosima', sans-serif;
+    margin: 0px 8px;
+    background-color: black;
+    color: white;
+    padding: 4px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(45, 45, 45);
+}
+.container{
+    /* border: 2px solid white; */
+    margin: 185px 100px 100px 700px;
+    padding: 20px;
+    width: 40%;
+    border-radius: 34px;
+}
+.form-group input{
+    display: block;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 11px;
+    margin: 11px auto;
+    width: 50%;
+    /* margin:auto; */
+    border: 2px solid rgb(47, 47, 47);
+    font-size: 12px;
+    font-family: 'Belanosima', sans-serif;
+    border-radius: 10px;
+}
+.form-group .btn{
+    display: block;
+    font-size: 15px;
+    margin: 11px auto;
+}
+.container h1{
+    text-align: center;
+}
